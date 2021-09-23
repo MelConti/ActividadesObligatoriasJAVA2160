@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <img src="./img/codoacodo.png" width="130px" alt="">
@@ -55,40 +56,40 @@
     <p style="text-align: center; margin-top: 10px;" >CONOCE A LOS </p>
     <h1 style="text-align: center; margin-top: -1%;">ORADORES</h1>
 
-    <div class="container">
+    <div class="container" id="cards">
         <div class="card-group">
-            <div class="card">
-            <img src="./img/steve.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <button type="button" class="btn btn-warning"><b>JavaScript</b></button>
-                <button type="button" class="btn btn-primary"><b>React</b></button>
-                <h5 class="card-title">Steve Jobs</h5>
-                <br>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatibus odio ullam sapiente doloremque quos necessitatibus architecto esse nesciunt itaque, dolor, modi accusamus hic sint corrupti iure vero quas eaque.</p>
-                
-            </div>
-            </div>
-            <div class="card">
-            <img src="./img/bill.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <button type="button" class="btn btn-warning"><b>JavaScript</b></button>
-                <button type="button" class="btn btn-primary"><b>React</b></button>
-                <h5 class="card-title">Bill Gates</h5>
-                <br>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti reprehenderit temporibus officia quam dolore ad dolor! Deleniti repellat temporibus voluptatum optio. Commodi quia provident quam nam doloribus voluptates eius.</p>
-                
-            </div>
+            <div class="card" id="steve">
+              <img src="./img/steve.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <button type="button" class="btn btn-warning"><b>JavaScript</b></button>
+                  <button type="button" class="btn btn-primary"><b>React</b></button>
+                  <h5 class="card-title">Steve Jobs</h5>
+                  <br>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatibus odio ullam sapiente doloremque quos necessitatibus architecto esse nesciunt itaque, dolor, modi accusamus hic sint corrupti iure vero quas eaque.</p>
+                  
+              </div>
             </div>
             <div class="card">
-            <img src="./img/ada.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <button type="button" class="btn btn-secondary"><b>Negocios</b></button>
-                <button type="button" class="btn btn-danger"><b>Startups</b></button>
-                <h5 class="card-title">Ada Lovelace</h5>
-                <br>
-                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum placeat rem quisquam esse reprehenderit amet dolor eveniet, dolore vitae dicta maiores ex exercitationem? Soluta rerum amet architecto cum eligendi atque!</p>
-                
+              <img src="./img/bill.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <button type="button" class="btn btn-warning"><b>JavaScript</b></button>
+                  <button type="button" class="btn btn-primary"><b>React</b></button>
+                  <h5 class="card-title">Bill Gates</h5>
+                  <br>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti reprehenderit temporibus officia quam dolore ad dolor! Deleniti repellat temporibus voluptatum optio. Commodi quia provident quam nam doloribus voluptates eius.</p>
+                  
+              </div>
             </div>
+            <div class="card" id="ada">
+              <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <button type="button" class="btn btn-secondary"><b>Negocios</b></button>
+                  <button type="button" class="btn btn-danger"><b>Startups</b></button>
+                  <h5 class="card-title">Ada Lovelace</h5>
+                  <br>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum placeat rem quisquam esse reprehenderit amet dolor eveniet, dolore vitae dicta maiores ex exercitationem? Soluta rerum amet architecto cum eligendi atque!</p>
+                  
+              </div>
             </div>
         </div>
     </div>  
@@ -113,7 +114,7 @@
     <h1 style="text-align: center; margin-top: -1%;">ORADOR</h1>
     <p style="text-align: center;">Anotate como un orador para dar una <span><u>charla ignite</u></span>. Cuentanos de que quieres hablar!</p>
 
-    <div class="container">
+    <div class="container" id="form">
       <div class="row">
         <div class="col">
           <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
@@ -132,28 +133,42 @@
     <br>
       <div class="d-grid gap-2">
             <button class="btn btn-primary" style="background-color: yellowgreen; color: white;" type="button">Enviar</button>
-        </div>
       </div>
     </div>
+    
     <br>
 <footer>
-    <div class="container pt-3" style="background-color: rgb(11, 63, 112); color: white; max-width: 100%;">
+    <div id="footer" class="container">
 
-        <div class="container row pb-3" >
+        <div class="row" >
             
-            <div class="col">Preguntas frecuentes</div>
+            <div class="col">
+              <p>Preguntas frecuentes</p> 
+            </div>
         
-            <div class="col">Contactanos</div>
+            <div class="col">
+              <p>Contactanos</p> 
+            </div>
         
-            <div class="col">Prensa</div>
+            <div class="col">
+              <p>Prensa</p> 
+            </div>
         
-            <div class="col">Conferencias</div>
+            <div class="col">
+              <p>Conferencias</p> 
+            </div>
         
-            <div class="col">Terminos y condiciones</div>
+            <div class="col">
+             <p>Terminos y condiciones</p> 
+            </div>
         
-            <div class="col">Privacidad</div>
+            <div class="col">
+              <p>Privacidad</p> 
+            </div>
         
-            <div class="col">Estudiantes</div>
+            <div class="col">
+              <p>Estudiantes</p>
+            </div>
 
         </div>
     </div>
