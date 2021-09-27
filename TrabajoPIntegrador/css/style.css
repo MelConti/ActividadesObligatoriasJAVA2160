@@ -1,7 +1,35 @@
+
+#img{
+    filter: brightness(50%);
+    height: 560px;
+}
+.card-img-overlay{
+    text-align: end;
+    padding-left: 50%;
+    margin-top: 15%;
+    margin-right: 10%;
+    font-size: 16px;
+}
+.btn1{
+    color: white;
+    border-color: rgba(255, 255, 255, 0.37);
+}
+.btn2{
+    background-color: #29a744;
+    color: white;
+}
 #cards{
     padding-right: 10%;
     padding-left: 10%;
     display: block;
+}
+.js , .rea , .nego , .star {
+    font-size: 11px;
+    padding: 4px 6px;
+}
+.puntitos{
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 #form{
     padding-left: 15%;
