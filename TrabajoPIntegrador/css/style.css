@@ -1,12 +1,16 @@
 
-#img{
+ #img{
+    position: relative;
     filter: brightness(50%);
-    height: 560px;
+    height: 650px;
+    width: 100%; 
 }
 .card-img-overlay{
+    position: absolute;
     text-align: end;
+    color: white;
     padding-left: 50%;
-    margin-top: 15%;
+    margin-top: 25%;
     margin-right: 10%;
     font-size: 16px;
 }
@@ -18,6 +22,7 @@
     background-color: #29a744;
     color: white;
 }
+
 #cards{
     padding-right: 10%;
     padding-left: 10%;
